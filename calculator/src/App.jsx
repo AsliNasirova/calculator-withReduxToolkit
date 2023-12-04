@@ -1,12 +1,13 @@
-import { useState } from 'react'
 import './App.css'
+import CalculatorComponent from './Features/Calculator/Calculator'
+import Todos from './Features/Todo/Todo'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-    
+     <CalculatorComponent></CalculatorComponent>
+     <Todos></Todos>
     </>
   )
 }
